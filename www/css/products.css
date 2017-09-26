@@ -1,0 +1,57 @@
+html { overflow: hidden; }
+body { margin: 0; overflow: hidden; }
+button { 
+
+	background-color: #00a;
+	border: none;
+	border-radius: 50%;
+	bottom: 8.5vw;
+	box-shadow: 0.5vw 0.5vw 0.5vw #aaa;
+	color: #fff;
+	font-family: 'Bebas Neue';
+	font-size: 12vw;
+	height: 14vw; 
+	position: absolute;
+	right: 8.5vw;
+	text-align: center;
+	width: 14vw;
+	z-index: 2;
+
+}
+
+#products-list {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+#products-list li {
+
+	border-bottom: 1px solid #ddd;
+	display: block;
+	font-family: 'Open Sans Light';
+	height: 10vh;
+
+}
+
+#products-list li .name {
+
+	float: left;
+	line-height: 10vh;
+	padding-left: 5vw;
+	text-align: left;
+	width: 75%;
+
+}
+
+#products-list li .price {
+
+	float: left;
+	font-size: 4vh;
+	line-height: 10vh;
+	text-align: center;
+	width: 25%;
+
+}

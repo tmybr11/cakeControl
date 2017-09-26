@@ -1,0 +1,36 @@
+.td-border-none { border: 0; }
+.td-center-align { text-align: center; }
+.td-font-bebasneue { font-family: 'Bebas Neue'; }
+.td-font-sansbold { font-family: 'Open Sans Bold'; }
+.td-font-sanslight { font-family: 'Open Sans Light'; }
+.td-margin-auto { margin-left: auto; margin-right: auto; }
+.td-padding-5px { padding: 5px; }
+.td-padding-1vw { padding: 1vw; }
+.td-valign-wrapper {
+
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+
+}
+.td-width-60pc { width: 60%; }
+.td-width-80pc { width: 80%; }
+.td-width-100pc { width: 100%; }
+
+/* Colors Collection */
+
+.td-pink { background-color: #ff0080; }
+.td-pink-text { color: #ff0080; }
+.td-purple { background-color: #b43cb8; }
+.td-purple-text { color: #b43cb8; }
+.td-red { background-color: #c41c1c; }
+.td-red-text { color: #c41c1c; }
+.td-white { color: #fff; }
+.td-white-text { color: #fff; }
+.td-yellow { background-color: #c9c83c; }
+.td-yellow-text { color: #c9c83c; }

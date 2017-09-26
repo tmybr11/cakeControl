@@ -1,0 +1,4 @@
+button { height: 10vh; }
+input, label { font-family: 'Open Sans Light'; }
+
+#username, #password { font-size: 2rem; }

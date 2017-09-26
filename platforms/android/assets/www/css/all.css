@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Open Sans Bold';
+    src: url('../fonts/opensansbold.ttf');
+}
+@font-face {
+	font-family: 'Open Sans Light';
+    src: url('../fonts/opensanslight.ttf');
+}
+@font-face {
+	font-family: 'Bebas Neue';
+    src: url('../fonts/bebasneue.otf');
+}
+
+html, body { overflow-x: hidden; }

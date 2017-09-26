@@ -1,0 +1,39 @@
+html { overflow: hidden; }
+body { margin: 0; overflow: hidden; }
+
+#products-list {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+#products-list li {
+
+	border-bottom: 1px solid #ddd;
+	display: block;
+	font-family: 'Open Sans Light';
+	height: 10vh;
+
+}
+
+#products-list li .name {
+
+	float: left;
+	line-height: 10vh;
+	padding-left: 5vw;
+	text-align: left;
+	width: 75%;
+
+}
+
+#products-list li .price {
+
+	float: left;
+	font-size: 4vh;
+	line-height: 10vh;
+	text-align: center;
+	width: 25%;
+
+}

@@ -1,0 +1,26 @@
+html { overflow: hidden; }
+body { margin: 0; overflow: hidden; }
+label, input { display: inline-block; width: 50%; }
+label { font-family: 'Bebas Neue'; font-size: 5vh; }
+input { font-family: 'Open Sans Light'; font-size: 5vh; height: 7vh; }
+h1 { font-family: 'Bebas Neue'; text-align: center; }
+h1 span { color: #777; }
+
+#name, #price { height: 10vh; padding: 0 5vw; width: 100%; }
+
+#save-button, #return-button { 
+
+	border: none;
+	bottom: 0;
+	color: #fff;
+	font-family: 'Bebas Neue';
+	font-size: 5vh;
+	height: 7vh;
+	padding-top: 0.6vh;
+	position: absolute;
+	width: 50%;
+
+}
+
+#save-button { background-color: #33b438; right: 0; }
+#return-button { background-color: #ec0000; left: 0; }
