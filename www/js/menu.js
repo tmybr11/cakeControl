@@ -3,16 +3,6 @@
 
 $(document).ready(function() {
 
-    var conn = new WebSocket('ws://191.252.102.226:8080');
-    
-    conn.onopen = function(e) {
-        alert("Connection established!");
-    };
-
-    conn.onmessage = function(e) {
-        alert(e.data);
-    };
-
     var buttons = document.getElementsByTagName('button');
 
     for(var i = 0; i < buttons.length; i++) {
