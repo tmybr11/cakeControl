@@ -6,7 +6,7 @@ input { font-family: 'Open Sans Light'; font-size: 5vh; height: 7vh; }
 h1 { font-family: 'Bebas Neue'; text-align: center; }
 h1 span { color: #777; }
 
-#name, #price, #stock { height: 10vh; padding: 0 5vw; width: 100%; }
+#name, #price { height: 10vh; padding: 0 5vw; width: 100%; }
 
 #save-button, #return-button { 
 

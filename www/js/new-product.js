@@ -34,39 +34,6 @@ function priceUnfocused(input) {
 
 }
 
-function deleteProduct() {
-
-    $.ajax({
-
-        url: 'http://vps3647.publiccloud.com.br:82/products.php',
-        method: 'post',
-        data: {
-            'mode': 3,
-            'id': 1
-        }
-
-    }).done(function(data) {       
-
-        data = $.parseJSON(data);
-
-        if(data) {
-
-            window.location.href = 'products.html';
-
-        } else {
-
-            alert('Não foi possível remover este produto, tente novamente mais tarde.');
-
-        }
-
-    }).fail(function() {
-
-        alert('Não foi possível remover este produto, tente novamente mais tarde.');
-
-    });
-
-}
-
 function insertProduct() {
 
     $.ajax({
@@ -76,7 +43,8 @@ function insertProduct() {
         data: {
             'mode': 5,
             'product_name': document.getElementById('name-input').value,
-            'product_price': document.getElementById('price-input').value
+            'product_price': document.getElementById('price-input').value,
+            'product_stock': document.getElementById('stock-input').value
         }
 
     }).done(function(data) {

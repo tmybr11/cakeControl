@@ -10,15 +10,17 @@ h1 span { color: #777; }
 
 #save-button, #delete-button { 
 
-	border: none; 
+	border: none;
+	bottom: 0;
 	color: #fff;
-	font-family: 'Bebas Neue'; 
+	font-family: 'Bebas Neue';
 	font-size: 5vh;
-	height: 7vh; 
+	height: 7vh;
 	padding-top: 0.6vh;
-	width: 50%; 
+	position: absolute;
+	width: 50%;
 
 }
 
-#save-button { background-color: #33b438; }
-#delete-button { background-color: #ec0000; }
+#save-button { background-color: #33b438; right: 0; }
+#delete-button { background-color: #ec0000; left: 0; }

@@ -1,0 +1,20 @@
+html { overflow: hidden; }
+body { margin: 0; overflow: hidden; text-align: center; }
+h2 { font-family: 'Bebas Neue'; font-size: 5vh; margin: 2vh 0 0 0; }
+hr { border-color: #fff; display: inline-block; margin-bottom: 2vh; margin-top: 2vh; width: 65%; }
+#chart { height: 350px; }
+
+#add-button, #return-button { 
+
+	border: none;
+	color: #fff;
+	font-family: 'Bebas Neue';
+	font-size: 5vh;
+	height: 7vh; 
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+}
+#add-button { background-color: #00a; bottom: 0; right: 0; } 
+#return-button { background-color: #a00; bottom: 0; left: 0; } 

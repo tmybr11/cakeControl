@@ -3,14 +3,14 @@ body { margin: 0; overflow: hidden; }
 
 #add-button, #return-button { 
 
-	border: none;
-	color: #fff;
-	font-family: 'Bebas Neue';
-	font-size: 5vh;
-	height: 7vh; 
-	position: absolute;
-	text-align: center;
-	width: 50%;
+    border: none;
+    color: #fff;
+    font-family: 'Bebas Neue';
+    font-size: 5vh;
+    height: 7vh; 
+    position: absolute;
+    text-align: center;
+    width: 50%;
 
 }
 
@@ -19,47 +19,64 @@ body { margin: 0; overflow: hidden; }
 
 #products-list {
 
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
 }
 
 #products-list li {
 
-	border-bottom: 1px solid #ddd;
-	display: block;
-	font-family: 'Open Sans Light';
-	height: 10vh;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-family: 'Open Sans Light';
+    height: 10vh;
 
 }
 
 #products-list li .name {
 
-	float: left;
-	line-height: 10vh;
-	padding-left: 5vw;
-	text-align: left;
-	width: 65%;
+    float: left;
+    line-height: 10vh;
+    padding-left: 5vw;
+    text-align: left;
+    width: 35%;
+
+}
+
+#products-list li .stock {
+
+    float: left;
+    font-size: 3.5vh;
+    line-height: 10vh;
+    padding-left: 5vw;
+    text-align: left;
+    width: 25%;
+
+}
+
+#products-list li .stock i {
+
+    color: #4B946A;
 
 }
 
 #products-list li .price {
 
-	float: left;
-	font-size: 4vh;
-	line-height: 10vh;
-	text-align: center;
-	width: 20%;
+    float: left;
+    font-size: 3.5vh;
+    line-height: 10vh;
+    text-align: left;
+    width: 25%;
 
 }
 
 #products-list li .chevron {
 
-	float: left;
-	font-size: 6vh;
-	line-height: 10vh;
-	text-align: center;
-	width: 15%;
+    float: left;
+    font-size: 6vh;
+    line-height: 10vh;
+    text-align: center;
+    width: 15%;
 
 }

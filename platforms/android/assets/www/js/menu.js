@@ -18,13 +18,12 @@ function buttonAction(button) {
     switch(parseInt(button.getAttribute('data-action'))) {
 
         case 0:
-            window.location.href = 'sales.html';
+            window.location.href = 'stock.html';
             break;
         case 1:
             window.location.href = 'products.html';
             break;
         case 2:
-            console.log('haha');
             window.localStorage.removeItem('USER_ID');
             window.location.href = 'login.html';
             break;

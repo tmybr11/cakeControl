@@ -24,7 +24,6 @@ function buttonAction(button) {
             window.location.href = 'products.html';
             break;
         case 2:
-            console.log('haha');
             window.localStorage.removeItem('USER_ID');
             window.location.href = 'login.html';
             break;

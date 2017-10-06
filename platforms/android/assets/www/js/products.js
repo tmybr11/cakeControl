@@ -3,6 +3,9 @@
 
 $(document).ready(function() {
 
+    document.getElementById('add-button').addEventListener('click', function() { window.location.href = 'new-product.html'; }, false);
+    document.getElementById('return-button').addEventListener('click', function() { window.location.href = 'menu.html'; }, false);
+
 	$.ajax({
 
 		url: 'http://vps3647.publiccloud.com.br:82/products.php',
@@ -21,10 +24,7 @@ $(document).ready(function() {
 
             var price = data[i].price.toString().replace('.', ',');
 
-            str += '<li class="td-valign-wrapper product-item" data-id="' + data[i].id + '"><span class="name">' + data[i].name + '</span><span class="price">' + price + '</span></li>';
-            str += '<li class="td-valign-wrapper product-item" data-id="' + data[i].id + '"><span class="name">' + data[i].name + '</span><span class="price">' + price + '</span></li>';
-            str += '<li class="td-valign-wrapper product-item" data-id="' + data[i].id + '"><span class="name">' + data[i].name + '</span><span class="price">' + price + '</span></li>';
-            str += '<li class="td-valign-wrapper product-item" data-id="' + data[i].id + '"><span class="name">' + data[i].name + '</span><span class="price">' + price + '</span></li>';
+            str += '<li class="td-valign-wrapper product-item" data-id="' + data[i].id + '"><span class="name">' + data[i].name + '</span><span class="price">' + price + '</span><span class="chevron">&gt;</span></li>';
 
         }
 
@@ -51,6 +51,7 @@ $(document).ready(function() {
 
 function openPage(product) {
 
+    window.localStorage.setItem('PRODUCT_ID', product);
     window.location.href = 'product-page.html';
 
 }

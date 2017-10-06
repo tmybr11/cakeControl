@@ -1,6 +1,22 @@
 html { overflow: hidden; }
 body { margin: 0; overflow: hidden; }
 
+#add-button, #return-button { 
+
+	border: none;
+	color: #fff;
+	font-family: 'Bebas Neue';
+	font-size: 5vh;
+	height: 7vh; 
+	position: absolute;
+	text-align: center;
+	width: 50%;
+
+}
+
+#add-button { background-color: #00a; bottom: 0; right: 0; } 
+#return-button { background-color: #a00; bottom: 0; left: 0; } 
+
 #products-list {
 
 	list-style-type: none;
@@ -24,7 +40,7 @@ body { margin: 0; overflow: hidden; }
 	line-height: 10vh;
 	padding-left: 5vw;
 	text-align: left;
-	width: 75%;
+	width: 65%;
 
 }
 
@@ -34,6 +50,16 @@ body { margin: 0; overflow: hidden; }
 	font-size: 4vh;
 	line-height: 10vh;
 	text-align: center;
-	width: 25%;
+	width: 20%;
+
+}
+
+#products-list li .chevron {
+
+	float: left;
+	font-size: 6vh;
+	line-height: 10vh;
+	text-align: center;
+	width: 15%;
 
 }
